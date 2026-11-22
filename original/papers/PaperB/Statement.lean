@@ -8,7 +8,7 @@ import Mathlib.Analysis.InnerProductSpace.PiL2
 Setting C of Paper B §2.1, the Jordan reconstruction statement, and the
 homogeneity and rank-two theorems.
 
-Manuscript: B. Ehrlich, *Spectral Compressions and Euclidean Jordan Structure* (submitted).
+Manuscript: B. Ehrlich, *Positivity of the Canonical Compression Product Forces Jordan Structure* (in preparation).
 -/
 
 noncomputable section

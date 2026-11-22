@@ -1,9 +1,9 @@
 # Original manuscripts
 
-- B. Ehrlich, *Sequential Products on Euclidean Jordan Algebras: Classification
-  in Rank at Least Three and the Complex Qubit* (submitted). [Statement](PaperA/Statement.lean) · [Bridge](PaperA/StatementBridge.lean)
-- B. Ehrlich, *Spectral Compressions and Euclidean Jordan Structure* (submitted).
-  [Statement](PaperB/Statement.lean)
+- B. Ehrlich, *Sequential Products on Finite-Dimensional Euclidean Jordan
+  Algebras: A Complete Classification* (submitted). [Statement](PaperA/Statement.lean) · [Bridge](PaperA/StatementBridge.lean)
+- B. Ehrlich, *Positivity of the Canonical Compression Product Forces Jordan
+  Structure* (in preparation). [Statement](PaperB/Statement.lean)
 
 Paper A studies sequential products on finite-dimensional Euclidean Jordan
 algebras. The Mathlib-only statement is connected to the wider library by

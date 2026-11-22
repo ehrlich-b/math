@@ -10,7 +10,7 @@ import Mathlib.LinearAlgebra.CrossProduct
 The definitions and the scalar witnesses in this file require only Mathlib.
 The statement of Paper A is the conjunction at the end of the file.
 
-Manuscript: B. Ehrlich, *Sequential Products on Euclidean Jordan Algebras: Classification in Rank at Least Three and the Complex Qubit* (submitted).
+Manuscript: B. Ehrlich, *Sequential Products on Finite-Dimensional Euclidean Jordan Algebras: A Complete Classification* (submitted).
 -/
 
 noncomputable section
