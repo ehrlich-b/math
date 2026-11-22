@@ -1,0 +1,11 @@
+Math in Lean
+Copyright 2026 Bryan Ehrlich
+
+AI models generated much of the Lean proof code under Bryan Ehrlich's
+direction. Lean kernel checking applies to completed proofs. Open obligations
+are marked with sorry and recorded in AUDIT.md. Daily proof exports include
+the model, attempt identifier, base commit, and kernel-check result.
+
+The Euclidean Jordan library and its bundled physlib modules are distributed
+under Apache-2.0. Their separate notice and upstream copyright credits are in
+vendor/euclidean-jordan/NOTICE.

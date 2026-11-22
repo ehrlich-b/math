@@ -1,0 +1,58 @@
+name = "math"
+version = "0.1.0"
+defaultTargets = ["PaperA", "PaperB", "Musings"]
+
+[leanOptions]
+relaxedAutoImplicit = false
+weak.linter.mathlibStandardSet = true
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.33.0"
+
+[[require]]
+name = "euclidean_jordan"
+path = "vendor/euclidean-jordan"
+
+[[lean_lib]]
+name = "PaperA"
+srcDir = "original/papers"
+globs = ["PaperA.*"]
+
+[[lean_lib]]
+name = "PaperB"
+srcDir = "original/papers"
+roots = ["PaperB.Statement"]
+moreLeanArgs = ["-M", "10240"]
+
+[[lean_lib]]
+name = "Musings"
+srcDir = "original/musings"
+roots = [
+  "BMO5TrapDepth",
+  "BMO5TrapDepthAudit",
+  "ObserverCapacity",
+  "ObserverCapacityAudit",
+  "ObserverCapacityInitialExamples",
+  "RationalClockAxiomAudit",
+  "RationalClockBackward",
+  "RationalClockBasic",
+  "RationalClockBound",
+  "RationalClockClassification",
+  "RationalClockConsequences",
+  "RationalClockDynamics",
+  "RationalClockGeneral",
+  "RationalClockInteger",
+  "RationalClockIsometry",
+  "RationalClockPadic",
+  "RationalClockPadicMeasure",
+  "RationalClockPadicRational",
+  "RationalClockPeriodic",
+  "RationalClockPhase",
+  "RationalClockRepresentation",
+  "RationalClockResearch",
+  "RationalClockShift",
+  "RationalClockStatements",
+  "RationalClockValuation",
+]

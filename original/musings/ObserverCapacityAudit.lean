@@ -1,0 +1,9 @@
+import ObserverCapacityInitialExamples
+
+#print axioms ObserverCapacity.persistence_capacity_bound
+#print axioms ObserverCapacity.three_bounds
+#print axioms ObserverCapacity.persistence_capacity_bound_initial
+#print axioms ObserverCapacity.InitialExamples.hidden_bit_equality
+#print axioms ObserverCapacity.InitialExamples.hidden_bit_violates_unqualified_fixed_memory
+#print axioms ObserverCapacity.InitialExamples.hidden_bit_instance
+#print axioms ObserverCapacity.InitialExamples.hiddenBit_not_independent

@@ -1,0 +1,13 @@
+Euclidean Jordan algebras in Lean
+Copyright 2026 Bryan Ehrlich
+
+Distributed under the Apache License, Version 2.0. See LICENSE.
+Proof code was developed with Claude under Bryan Ehrlich's direction.
+
+This distribution adds citations to the module documentation and trims the
+package configuration to the library. Its audit is retained.
+
+Includes Apache-2.0 physlib modules by Alex Meiburg and Leonardo A Lessa
+from commit a50684a1919e84dc1c761028ff4f77cd59e2de6b. The upstream source
+contains the original copyright and author headers. See
+EuclideanJordan/Vendor/VENDOR.md for the source paths and modifications.
